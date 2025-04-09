@@ -6,10 +6,10 @@ const buttonEl = document.getElementById("button");
 
 buttonEl.addEventListener("click", () => {
   //   console.log("sono stato cliccato");
-  buttonEl.classList.toggle("bg-warning");
+  buttonEl.classList.replace("accendi", "spegni");
+
   if (lampEl.classList.toggle("d-none")) {
     lamponEl.classList.remove("d-none");
-
     lamponEl.classList.add("d-block");
   } else {
     lamponEl.classList.add("d-none");
