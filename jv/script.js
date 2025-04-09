@@ -7,8 +7,7 @@ const buttonEl = document.getElementById("button");
 buttonEl.addEventListener("click", () => {
   //   console.log("sono stato cliccato");
   buttonEl.classList.toggle("bg-secondary");
-  buttonEl.classList.add("color-primary");
-  buttonEl.innerHTML = "spegni";
+  buttonEl.classList.add("text-light");
   if (lampEl.classList.toggle("d-none")) {
     lamponEl.classList.remove("d-none");
     lamponEl.classList.add("d-block");
