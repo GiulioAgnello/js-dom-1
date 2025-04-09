@@ -15,3 +15,4 @@ buttonEl.addEventListener("click", () => {
     lamponEl.classList.add("d-none");
   }
 });
+// la lampada si accende e spegne
